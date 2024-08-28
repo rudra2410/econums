@@ -10,9 +10,7 @@ import logo from "../assets/logo.svg";
 import image from "../assets/brown-3.jpg";
 import image1 from "../assets/collection-1 (1).jpg";
 import image2 from "../assets/collection-2 (1).jpg";
-import image3 from "../assets/pink-1.jpg";
 import image4 from "../assets/white-1.jpg";
-import { IoIosArrowDown } from "react-icons/io";
 
 
 function Main_Navbar() {
