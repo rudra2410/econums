@@ -75,7 +75,7 @@ export function Swipper() {
             <div className="border-2 border-black size-[435px]">
               <h1 className="absolute bottom-10 left-6 text-3xl leading-[45px] text-start p-2">
                 Discovery all new items{" "}
-                  <FaLocationArrow className="mt-4 text-[40px]"/>
+                <FaLocationArrow className="mt-4 text-[40px]" />
               </h1>
             </div>
           </SwiperSlide>
@@ -96,6 +96,15 @@ export function Swipper() {
             </div>
           </SwiperSlide>
         </Swiper>
+        <div>
+          <h1 className="text-center text-[40px] tracking-wider mt-6">
+            Best Seller
+          </h1>
+          <p className="text-center mt-4 text-[16px] capitalize pb-10">
+            Shop the Latest Styles: Stay ahead of the curve with our newest
+            arrivals
+          </p>
+        </div>
       </Container>
     </>
   );

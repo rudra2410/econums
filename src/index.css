@@ -1,12 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-@import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css";
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 
 .poppins-thin {
   font-family: "Poppins", sans-serif;
@@ -119,7 +121,7 @@
 /*----------------- navbar css------------------ */
 
 * {
-  font-family:cursive;
+  font-family: cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -225,4 +227,53 @@ body {
   width: 100vw;
   height: 60vh;
   object-fit: cover;
+}
+
+/*-------------------- Product Photo Hover ---------------- */
+
+/* .image-container {
+  background-image: url('assets/orange-1.jpg');
+  background-size: cover;
+  width: 320px;
+  height: 200px;
+}
+
+.image-container:hover {
+  background-image: url('assets/white-1.jpg');
+} */
+
+.image-container {
+  position: relative;
+  width: 320px;
+  height: 60vh;
+}
+
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.image-container:hover .image1 {
+  opacity: 0;
+}
+
+.image-container:hover .image2 {
+  opacity: 1;
 }
