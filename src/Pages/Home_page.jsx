@@ -4,6 +4,8 @@ import Scroll from "../Component/Scroll";
 import Swipper from "../Component/Swipper";
 import Best_Seller from "../Component/Best_Seller";
 import Shop_look from "../Component/Shop_look";
+import Happy_client from "../Component/Happy_client";
+import Shop_Gram from "../Component/Shop_Gram";
 
 const Home_page = () => {
   return (
@@ -62,6 +64,8 @@ const Home_page = () => {
         />
       </div>
       <Shop_look />
+      <Happy_client />
+      <Shop_Gram />
     </div>
   );
 };
